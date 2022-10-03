@@ -41,6 +41,18 @@ docker-compose up
 *docker-compose.yml* file is used to create a container that is reachable under http://localhost:4000.
 Changes *_data/data.yml* will be visible after a while.
 
+## Testing and previewing Changes
+
+**Look locally at what is there**
+
+`bundle exec jekyll serve --livereload`
+
+>Note: If you see a message saying:
+>`.... Could not find ...<here list of gems>.... `
+>You need to install missing gems first with bundle install.
+
+... you should have an endpoint on <http://localhost:4000/observability/signals-dispatching-service/> as indicated by the commandline to see your local changes.
+
 ## Skins
 
 There are 6 color schemes available:
