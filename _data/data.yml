@@ -231,29 +231,28 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+# Cloud & Containers:	AWS, Azure, GCP, Gardner, SCP, , Istio
       - name: "Cloud Providers: AWS, Azure, GCP"
-# Cloud & Containers:	AWS, Azure, GCP, Gardner, SCP, Kubernetes, Docker, Cloud Foundry, Helm, Istio
+        level: 98%
+      - name: "Kubernetes, Docker, Cloud Foundry, Helm"
         level: 98%
 
-      - name: "PJavascript & jQuery"
+      - name: "Programing: Go,  Python"
+        level: 98%
+# Coding/Scripting:	Python, GO, Ruby, Java (jQuery,Node.JS), C+, Bash
+
+      - name: "CI/CD & IAC:  Concourse, Jenkins, Ansible"
+        level: 98%
+# CI/CD &Infra Mgmt.:  Concourse, Jenkins, Vault, Ansible, Puppet, Terraform, BOSH, Spinnaker, Flux, ArgoCD
+
+      - name: "GitOps: Terraform, BOSH, Spinnaker, Flux, ArgoCD"
         level: 98%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: "Observability:		OpenTelemetry, Prometheus, ElasticSearch, Loki, Dynatrace"
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+# Observability:		OpenTelemetry, Prometheus/Cortex, ElasticSearch, Loki, Dynatrace, Riemann, Graphite, Grafana, Nagios/Icinga, Influxdb/Telegraf/Kapacitor, Fluentbit/Logstash, Jaeger
 
 # Virtualization: 	VMWare ESXi, KVM/Xen, Hyper-V
-# CI/CD &Infra Mgmt.:  Concourse, Jenkins, Vault, Ansible, Puppet, Terraform, BOSH, Spinnaker, Flux, ArgoCD
-# Observability:		OpenTelemetry, Prometheus/Cortex, ElasticSearch, Loki, Dynatrace, Riemann, Graphite, Grafana, Nagios/Icinga, Influxdb/Telegraf/Kapacitor, Fluentbit/Logstash, Jaeger
-# Coding/Scripting:	Python, GO, Ruby, Java (jQuery,Node.JS), C+, Bash
 # Networking: 	TCP/IP v4/v6, DNS, DHCP, SSH, NFS, HAProxy, VPN, AD, LDAP, SAML, Apache, Tomcat, Nginx, iptables (some Juniper), PaloAlto, PXE-Boot, SNMP
 # Database:	MS SQL, MySQL, PostgreSQL, MongoDB, InfluxDB
 # SAN/NAS/DAS/FS:	Dell NX32xx, MDxxxx, HP StoreOnce 4500, QNAP, iSCSI, SAS, ZFS, GFS
