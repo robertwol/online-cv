@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Robert Wolujewicz
-    tagline: Cloud Development Architect
+    tagline: Sr. Cloud Development Architect
     avatar: robert.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -85,38 +85,88 @@ education:
         time: 1997 - 2001
         details: |
           Bachelor’s thesis: „Architecture of University campus computer network”.
+      - degree: BTEC in Electronics
+        university: Technical College of Koszalin
+        time: 1992 - 1997
+        # details: |
+        #   Bachelor’s thesis: „Architecture of University campus computer network”.
+
 experiences:
     title: Experiences
     info:
-      - role: Lead Development Architect - BTP, Observability and Performance
-        time: 2021 - Present
+      # - role: Lead Development Architect - BTP, Observability Signals Dispatching
+      - role: Lead Development Architect
+        time: from Jun 2021
         company: SAP SE / SAP Hybris GmbH – München, Germany
         details: |
+          Busines Technology Platform, Observability and Performance, Project: Signals Dispatching Service
+      - role: Sr. Cloud Architect (Fellow)
+        time: from Feb 2021
+        company: SAP SE / SAP Hybris GmbH – München, Germany
+        details: |
+          CX, C4C, Next Generation Products – Project: Aurora - Customer 360
+      - role: Sr. Cloud DevOps & Development Architect
+        time: from Nov 2020
+        company: SAP SE / SAP Hybris GmbH – München, Germany
+        details: |
+          Busines Technology Platform, Foundation Plane, Technical Services, Project: – Cloud Metrics Service
+      - role: Sr. Cloud DevOps and Development Architect Associate
+        time: from Sep 2018
+        company: SAP SE / SAP Hybris GmbH – München, Germany
+        details: |
+          Busines Technology Platform, Foundation Plane, Technical Services, Project: – Log Management Service
+      - role: Senior Cloud DevOps Eng.
+        time: from Apr 2018
+        company: SAP SE / SAP Hybris GmbH – München, Germany
+        details: |
+          Model-T/CCv2 SRE Embedded
+      - role: Sr. Cloud DevOps Eng.
+        time: from Dec 2017
+        company: SAP SE / SAP Hybris GmbH – München, Germany
+        details: |
+          Faros/Kyma SRE embedded
+      - role: Sr. Cloud DevOps Eng.
+        time: from 	Apr 2016
+        company: SAP SE / SAP Hybris GmbH – München, Germany
+        details: |
+          Project YaaS, team Idefix
 
-          **Sr. Cloud Architect** – Fellow, CX, C4C, Next Generation Products – Customer 360 (from Jun 2021)
+      - role: IT Manager
+        time: 2009 – 2016
+        company: Research Complex at Harwell - Medical Research Council, Oxford, UK
+        details: |
+        # - Ensured compliance with ITILv3/ISO20000 for IT Service Management and delivered high quality ICT services to the scientific research programs in large heterogeneous IT environment with Linux, Windows servers, VMware ESXi cluster.
+        # -	Implemented Information Security Management programs ISO27001/2 and BS25999, including Risk Managements, Audits, Penetration Testing, Vulnerability Manager, maintained system documentations, SOPs, Created and rehearsed BCP and DR Plans for the ICT systems.
+        # -	Coordinated IT/Dev staff within research groups (OPPF-UK, LSF and CCP4) and advised on all aspects of scientific computing.
+        # -	Managed IT budget, Capital Assets, tendering, expenditures and capacity planning.
+        # Key Projects and Major Achievements
+        # -	Designed and oversee installation of the Data Centre consisting of 12 APC racks, 6x30kW InRow chillers, 150kVA UPS with Central Management and KVMs/IP.
+        # -	Planned and built IT infrastructure for highly scalable and highly available scientific applications in the Research Complex.
+        # -	Implemented Network and Services Monitoring systems with Nagios/Icinga, WhatsUP, and Dell OpenManage to ensuring high SLAs for scientific projects.
+        # -	Improved network performance by replacing old Nortel and Cisco switches with HP 54xx and HP 59xx series modular L3 switches with 80GB backbone connectivity.
+        # -	Deployed automated system provisioning and management with PXE-Boot, WDS, Puppet, and Spacewalk/RedHat Satellite for Updates and Patches management.
+        # -	Provided Jenkins CI/CD platform, version controlling with SVN/Trac and support for DevOps teams to move builds and image processing pipeline to AWS.
 
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      # - role: Senior Software Engineer
-      #   time: 2014 - 2015
-      #   company: Google, London
-      #   details: |
-      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
-      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      #     Cum sociis natoque penatibus et magnis dis parturient montes,
-      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      #     pellentesque eu, pretium quis, sem.
-      #       - Bullet point
-      #       - Bullet point
+      - role: Linux & System Analyst
+        time: 2005 – 2009
+        company: Diamond Light Source Synchrotron - Harwell Oxford, UK
+        details: |
+        # -	Administered large RedHat server’s infrastructure including automated deployments with kickstarts and cfengine/RH Satellite management and bare-metal Xen/KVM virtualization.
+        # -	Implemented Network and Services Monitoring with Nagios, Ganglia, WhatsUP, Zenoss, etc.
+        # -	Developed Machine Status Display to show live status of the synchrotron buster and storage.
+        # -	Managed Symantec NetBackup, updated SOPs and DR plans.
+        # -	Migrated SharePoint 2003 to 2007 and integrated with MS Project Server 2007.
+        # -	Supported business applications: SugarCRM, AutoCAD, Crystal Reports, iProc and Carvel HR.
+      - role: Technical Specialist & Project Manager
+        time: 2001 - 2005
+        company: Selmar (Symbol & ZEBRA Business Partner) – Warsaw, Poland
+        details: |
+        # Designed and maintained 802.11x networks for logistics, VoIP and auto-ID applications.
+      - role: Lead IT in local branch
+        time: 1999 - 2001
+        company: KRUS Social Insurance Fund - Koszalin, Poland
+        details: |
+        # Managed IT and budget, providing support for local and remote offices. Administered Linux, Novell servers, network, backups and archiving system
       # - role: UI Developer
       #   time: 2012 - 2014
       #   company: Amazon, London
@@ -128,16 +178,16 @@ experiences:
       #     pellentesque eu, pretium quis, sem.
       #       - Bullet point
       #       - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
       # - title: DevStudio
       #   link: "#"
